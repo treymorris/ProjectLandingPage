@@ -2,6 +2,11 @@ body {
     background-color:rgb(232, 233, 236)
 }
 
+h2 {
+    text-align: center;
+}
+
+
 .container {
     max-width: 1450px;
     margin: auto;
@@ -11,7 +16,7 @@ body {
     display: flex;
     column-gap: 2em;
     justify-content: space-around;
-    background-color: rgb(47, 58, 107);
+    background-color: rgb(51, 59, 92);
     color: white;
     height: 80px;
 }
@@ -26,5 +31,17 @@ body {
 }
 
 .signup-link-image {
-    justify-content: align;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(51, 59, 92);
+    height: 450px;
 }
+
+.info-images {
+    display: flex;
+    align-items: center;
+    height: 500px;
+    justify-content: center;
+    text-align: center;
+}
+
