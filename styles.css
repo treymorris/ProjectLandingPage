@@ -1,0 +1,30 @@
+body {
+    background-color:rgb(232, 233, 236)
+}
+
+.container {
+    max-width: 1450px;
+    margin: auto;
+}
+
+.header {
+    display: flex;
+    column-gap: 2em;
+    justify-content: space-around;
+    background-color: rgb(47, 58, 107);
+    color: white;
+    height: 80px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: white;
+}
+
+#push {
+    margin-left: auto;
+}
+
+.signup-link-image {
+    justify-content: align;
+}
