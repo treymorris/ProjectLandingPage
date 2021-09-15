@@ -1,9 +1,18 @@
 body {
-    background-color:rgb(232, 233, 236)
+    background-color:rgb(249, 249, 252)
+}
+
+h1 { 
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
 }
 
 h2 {
     text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937
 }
 
 
@@ -16,14 +25,15 @@ h2 {
     display: flex;
     column-gap: 2em;
     justify-content: space-around;
-    background-color: rgb(51, 59, 92);
+    background-color: #1F2937;
     color: white;
     height: 80px;
 }
 
 .header-links a {
     text-decoration: none;
-    color: white;
+    color: #e5e7eb;
+    font-size: 18px;
 }
 
 #push {
@@ -33,15 +43,47 @@ h2 {
 .signup-link-image {
     display: flex;
     justify-content: space-evenly;
-    background-color: rgb(51, 59, 92);
+    background-color: #1F2937;
     height: 450px;
 }
 
 .info-images {
     display: flex;
     align-items: center;
-    height: 500px;
+    height: 400px;
     justify-content: center;
     text-align: center;
 }
 
+.inspirational-quote {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+    align-items: center;
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-weight: lighter;
+}
+
+#call-to-action {
+    display: flex;
+    justify-content: space-evenly;   
+    height: 300px;
+    align-items: center;
+    background-color: #3882f6;
+}
+
+#hero-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+#header-logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+#button { 
+    background-color: #3882f6;
+}

@@ -15,7 +15,7 @@
     <!--Header with logo and 3 links-->
     <div class="container">
         <div class="header">
-            <div>Header Logo</div>
+            <div id="header-logo">Header Logo</div>
             <div id="push" class="header-links"><a href="#">Header Link One</a></div>
             <div class="header-links"><a href="#">Header Link Two</a></div>
             <div class="header-links"><a href="#">Header Link Three</a></div>
@@ -25,8 +25,8 @@
         <div class="signup-link-image">
             <div>
                 <h1>This website is awesome</h1>
-                <p>This is some subtext about the awesome website you are currently visiting.</p>
-                <button>Sign Up</button>
+                <p id="hero-text">This is some subtext about the awesome website you are currently visiting.</p>
+                <button id="button">Sign Up</button>
             </div>
             <div>
                 <img src="https://via.placeholder.com/600x250">
@@ -62,12 +62,24 @@
       </div>
         
     <!--Inspirational quote-->
-        <p>This will be an inspirational quote section.  If you ain't first, you're last.  Life's a garden, dig it!</p>
+        <div class="inspirational-quote">
+            <figure>
+                <blockquote>
+                    <p><em>Life's a garden, dig it!</em></p>
+                </blockquote>
+                <figcaption>-Joe Dirt, <cite>The Ballad of Dirty Joe</cite>
+                </figcaption>
+            </figure>
+        </div>
 
-    <!--Footer with Sign Up button-->
-        <footer>Call to Action! It's time!</footer>
-        <button>Sign Up</button>
+    <!--Sign Up button with message-->
+        <div id="call-to-action">
+            <footer>Call to Action! It's time!</footer>
+            <button>Sign Up</button>
+        </div>
 
+    <!--Footer bar with copyright info-->
+       
     </div>
 
 </body>
